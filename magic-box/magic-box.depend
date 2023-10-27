@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1698394822 source:d:\nadosh\text-editor\magic-box\main.c
+	<stdio.h>
+	<windows.h>
+	<time.h>
+
