@@ -3,6 +3,17 @@
 
 int main()
 {
-    printf("Hello world!\n");
-    return 0;
+    int values[10];
+
+  printf("Enter 10 integers:\n ");
+
+  for(int i = 0; i < 10; ++i) {
+     scanf("%d", &values[i]);
+  }
+
+  printf("Displaying integers:\n ");
+  for(int i = 0; i < 10; ++i) {
+     printf("%d\n", values[i]);
+  }
+  return 0;
 }
